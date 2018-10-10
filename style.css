@@ -1,0 +1,366 @@
+ body {
+  background: url('img/image1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background: transparent;
+  background-color: #111 !important;
+  opacity: .9;
+}
+
+div.Links * i {
+  display: inline-block;
+  padding: .7rem;
+  padding-bottom: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  font-size: 1.3rem;
+  background-color: #333;
+  border-radius: 50%;
+  border: 1px solid grey;
+  color: white;
+}
+
+i:hover {
+  background-color: grey;
+}
+
+h1 {
+  padding: 1.3rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+#author {
+  color: grey;
+}
+
+.container {
+  background: white;
+}
+
+ #cindy {
+  padding-top: 56px;
+}
+.links {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#hrStyle {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+#hrStyle:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+#opening {
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+#book {
+  padding: 2rem;
+  display: block;
+  margin-left: 10rem;
+}
+
+#order {
+  margin-bottom: 1rem;
+  margin-left: 13rem;
+}
+
+#review {
+  background-color: #fafafa;
+}
+
+#bookReview {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+#reviewer {
+  font-weight: bolder;
+  padding-left: 3.8rem;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  background: url('img/image4.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+  position: relative;
+  margin-top: 3rem;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    bottom: 120px;
+    margin-right: 13rem;
+    margin-left: 13rem;
+}
+
+/* Fading animation */
+ .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 14.5s;
+  animation-name: fade;
+  animation-duration: 14.5s;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+#praise {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+#testimonial {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+#info {
+  padding-top: 3rem;
+}
+
+#footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  margin: 0;
+  margin-top: 2rem;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* About section styles */
+
+#cindy2 {
+  padding-top: 6rem;
+  padding-left: 4rem;
+}
+
+#aboutImage {
+  border-radius: 25%;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+#abLinks {
+  margin-left: 4.5rem;
+}
+
+#aboutHer {
+  text-align: left;
+  font-size: 1.1rem;
+  padding-top: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 5rem;
+}
+
+/* Books Page */
+
+#booksPage {
+  padding-top: 6rem;
+  margin-left: 6rem;
+}
+
+#book2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
+
+#book3 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#featuredIn {
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 3;
+}
+
+#featuredAlso {
+  font-size: 1.2rem;
+  margin-left: 2.8rem;
+}
+#lineUp {
+  line-height: 1 !important;
+}
+
+#col {
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+
+#dating {
+  padding-bottom: 1.7rem;
+}
+
+.accordionWrapper{
+  background:#fff;
+  box-sizing:border-box;
+  margin-bottom: -2rem;
+  text-align: center;
+}
+
+.accordionItem{
+    float:left;
+    display:block;
+    width:100%;
+    box-sizing: border-box;
+    line-height: 2;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family:'Open-sans', Arial, sans-serif;
+}
+
+.accordionItemHeading{
+  cursor:pointer;
+  margin:0px 0px 10px 0px;
+  padding:10px;
+  background:#111;
+  color:#fff;
+  width:100%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.close .accordionItemContent{
+  height:0px;
+  transition:height 1s ease-out;
+  -webkit-transform: scaleY(0);
+	-o-transform: scaleY(0);
+	-ms-transform: scaleY(0);
+	transform: scaleY(0);
+  float:left;
+  display:block;
+}
+
+.open .accordionItemContent{
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+  display:block;
+  -webkit-transform: scaleY(1);
+	-o-transform: scaleY(1);
+	-ms-transform: scaleY(1);
+	transform: scaleY(1);
+  -webkit-transform-origin: top;
+	-o-transform-origin: top;
+	-ms-transform-origin: top;
+	transform-origin: top;
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	-o-transition: -o-transform 0.4s ease;
+	-ms-transition: -ms-transform 0.4s ease;
+	transition: transform 0.4s ease;
+  box-sizing: border-box;
+}
+
+.open .accordionItemHeading{
+  margin:0px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: #333 ;
+  color: #7f8c8d;
+}
+
+#blog {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+#blogPic {
+  padding: 1rem;
+}
+
+#blogPost {
+  font-size: 1.2rem;
+  line-height: 2;
+  margin-right: 8rem;
+  margin-left: 8rem;
+  padding-bottom: 1rem;
+}
+
+#quote {
+  margin-left: -58rem;
+  font-size: 3rem;
+  color: #ccc;
+}
+
+#events {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#order {
+  margin-top: 1rem;
+  margin-left: .25rem;
+}
+
+#EventHeading {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
